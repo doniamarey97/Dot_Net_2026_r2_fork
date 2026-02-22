@@ -1,0 +1,7 @@
+
+ssh-keygen -t ed25519 -C "rawan11essam@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+
+$ ssh -T git@github.com
+Hi Rawanessam1313! You've successfully authenticated, but GitHub does not provide shell access.
