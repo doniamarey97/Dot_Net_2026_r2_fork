@@ -1,0 +1,28 @@
+
+
+link of website ==> how to gen SSH key 
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+ ---------------------------------------------------------------------------------------------------------------------------------
+
+SSH key is an access credential used in the Secure Shell (SSH) network protocol to establish a secure, encrypted connection between two computers, such as a client and a remote server. It is considered a more secure and convenient alternative to traditional password-based authentication, especially for automated processes and remote server access. 
+
+How SSH Keys Work
+SSH keys operate on the principle of public-key cryptography, utilizing an asymmetric encryption scheme involving a pair of mathematically linked keys: 
+
+
+Private Key: This key is a secret file that must remain securely on the user's local machine and should never be shared.
+Public Key: This key can be freely shared and is placed on any remote server or service (like GitHub or cloud platforms) that the user wishes to access. It acts like a lock that only the corresponding private key can open.
+
+-----------------------
+
+Key Benefits
+
+Enhanced Security:
+SSH keys are significantly more resistant to brute-force attacks, password guessing, and credential theft compared to passwords.
+
+Convenience: 
+They enable passwordless authentication, allowing users to log in to remote systems automatically without having to enter a password for each session.
+
+Automation: 
+They facilitate the automation of secure processes, such as file transfers and configuration management, which are fundamental to modern cloud services
