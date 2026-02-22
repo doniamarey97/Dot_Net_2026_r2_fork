@@ -1,0 +1,10 @@
+An SSH key is a secure authentication method used to connect a local machine to a remote server without entering a username and password each time.
+Public Key → This key is added to your GitHub account.
+Private Key → This key remains securely stored on your local machine and must never be shared.
+Steps:
+1- open git bash
+2- Generate a New SSH Key using => ssh-keygen -t ed25519 -C "doniamarey9000@gmail.com"
+3- Start the SSH Agent => eval "$(ssh-agent -s)"
+4-Then add your SSH key: ssh-add ~/.ssh/id_ed25519
+5- copy the public key and run => cat ~/.ssh/id_ed25519.pub
+6- Add the SSH Key to GitHub: Go to your GitHub account → Settings → SSH and GPG keys → Add new SSH key, then paste the copied public key.

@@ -1,0 +1,21 @@
+1- ssh-keygen -t ed25519 -C "medodeo2@gmail.com"
+
+2-  هيحفظ ال key  في اليوزرس في فولدر اسمعه  .ssh 
+
+3- github setting 
+
+4- SSH and GPG Keys
+
+5- New SSH Key
+
+6-  افتح ملف id_ed25519.pub  as text  ةو انسخ اللي جواه و اعمل و بست في  git hib  
+
+7- save 
+
+
+
+
+
+---- deployment using ssh https://mow-dfrawy.github.io/Day-4-JS-/   
+
+
