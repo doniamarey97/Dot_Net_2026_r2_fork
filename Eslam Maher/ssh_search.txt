@@ -1,0 +1,22 @@
+SSH also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
+
+SSH uses cryptography to authenticate and encrypt connections between devices.
+
+SSH is “secure” because it incorporates encryption and authentication via a process called public key cryptography. Public key cryptography is a way to encrypt data, or sign data, with two different keys. One of the keys, the public key, is available for anyone to use. The other key, the private key, is kept secret by its owner. Because the two keys correspond to each other, establishing the key owner’s identity requires possession of the private key that goes with the public key.
+
+The process of generating SSH keys involves creating a key pair on your local machine:
+
+1-Private Key: This key should be kept secret and secure on your machine. It’s used to decrypt information and prove your identity when connecting to a server via SSH.
+
+2-Public Key: This key can be freely shared with servers you want to connect to. It allows the server to verify your identity during the SSH connection process.
+
+
+
+steps to create ssh:
+-- Open Git Bash
+-- write --> ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+-- on github account:
+                settings --> SSH and GPG keys --> New SSH key
+    git bash --> cat ~/.ssh/id_rsa.pub --> copy ssh key --> paste in New SSH key
+            
+              
