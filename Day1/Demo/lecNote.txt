@@ -80,6 +80,23 @@ working area                                staging area                    loca
                                                                          git push origin master
 
 
+=========================== Steps ==============
+install git 
+account on git hub
+handel configrations (userName , user Email)
+on git hub ----------> create repo 
+local repo : 
+git status  (Add , commit)
+-----------> starts----
+link between local repo and remote repo 
+ git remote add origin https://github.com/ayaatadel/Dot_Net_2026_r2.git
+  git push origin master
+
+
+  ===============> second time 
+  git status (add || commit)
+  git push origin master
+
 
 
 
