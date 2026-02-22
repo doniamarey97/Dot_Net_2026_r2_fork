@@ -42,3 +42,10 @@ working area                                staging area                    loca
           ------------  file must be tracked file (add --> git add fileName) ---------->
                              git commit -a -m "message"
                              git commit -am "message"
+
+                             <-------------------------
+                             add New file 
+                             changes
+                             (git reset fileName1)
+                             (git reset fileName1 fileName2) 
+                             (git reset) --> unracked all files that added
