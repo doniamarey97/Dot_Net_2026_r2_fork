@@ -1,0 +1,21 @@
+# About SSH
+
+Using the SSH protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect
+to GitHub without supplying your username and personal access token at each visit. You can also use an SSH key to sign
+commits.
+
+You can access and write data in repositories on GitHub using SSH (Secure Shell Protocol). When you connect via SSH, 
+you authenticate using a private key file on your local machine. For more information about SSH.
+
+When you set up SSH, you will need to generate a new private SSH key and add it to the SSH agent.
+You must also add the public SSH key to your account on GitHub before you use the key to authenticate or sign commits.
+
+To maintain account security, you can regularly review your SSH keys list and revoke any keys that
+are invalid or have been compromised.
+
+If you haven't used your SSH key for a year, then GitHub will automatically delete your inactive
+SSH key as a security precaution.
+
+
+# create SSH
+-------> img
